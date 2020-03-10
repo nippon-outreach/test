@@ -1,32 +1,31 @@
 {
-    "title": "New Age",
-    "name": "startbootstrap-new-age",
-    "version": "5.0.7",
+    "title": "Nippon Outreach",
+    "name": "Nippon Outreach",
+    "version": "0.1.0",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "gulp": "gulp"
     },
-    "description": "A one page app landing page HTML theme for Bootstrap.",
+    "description": "Nippon Outreach Enterprise",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "nippon",
+        "outreach",
+        "enterprise",
+        "japan",
+        "malaysia",
+        "trading",
+        "import",
+        "export",
+        "interpreter",
+        "language tutoring",
+        "business consultation",
+        "travel management",
+        "japanese"
     ],
     "homepage": "https://nippon-outreach.github.io/test",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-new-age/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
+        "url": "https://github.com/nippon-outreach/test.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
