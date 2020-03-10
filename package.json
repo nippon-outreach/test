@@ -1,6 +1,6 @@
 {
     "title": "Nippon Outreach",
-    "name": "Nippon Outreach",
+    "name": "nippon-outreach",
     "version": "0.1.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
