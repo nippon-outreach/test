@@ -16,6 +16,9 @@ const uglify = require("gulp-uglify");
 // Load package.json for banner
 const pkg = require('./package.json');
 
+
+var deploy      = require('gulp-gh-pages');
+
 // Set the banner content
 const banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
@@ -129,6 +132,14 @@ function watchFiles() {
 const vendor = gulp.series(clean, modules);
 const build = gulp.series(vendor, gulp.parallel(css, js));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./**/*")
+    .pipe(deploy())
+});
 
 // Export tasks
 exports.css = css;
